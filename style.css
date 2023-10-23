@@ -10,6 +10,8 @@
 
 body{
     background-color: #131212;
+    position: relative;
+    bottom: -200px;
 }
 
 section{
