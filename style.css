@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    
+}
+
+body{
+    background-color: #131212;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    width: 100%;
+    background: #131212;
+
+}
+
+.Image{
+    width: 100px;
+    position: relative;
+    right: 2em;
+    top: -4em;
+   
+    
+}
+
+.Heading{
+    font-family: Poppins;
+    color: #ee4136;
+
+    font-size: 28px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    top: -3em;
+}
+
+
+
+.form-box{
+    position: relative;
+    width: 500px;
+    height: 550px;
+    background-color: #ee4136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+} 
+
+h2{
+    font-size: 2em;
+    color: #131212;
+    text-align: center;
+
+}
+
+.inputbox{
+    position: relative ;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #131212;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px ;
+    transform: translateY(-50%);
+    color: #131212;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+
+
+}
+input:focus ~ label,
+input:valid ~label{
+top: -5px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #131212;
+}
+.inputbox ion-icon{
+    position:absolute;
+    right:8px;
+    color: #131212;
+    font-size: 1.2em;
+    top: 20px;
+
+}
+
+.forget{
+    margin: 0 -15px 0 -15px;
+    font-size: .9em;
+    color: #131212;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input{
+    margin-right: 3px;
+
+}
+
+.forget label a{
+    color:#131212 ;
+    text-decoration: none;
+
+}
+.forget label a:hover{
+    text-decoration: underline ;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #201f1f;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.Login {
+    font-size: .9em;
+    color:#131212;
+    text-align: center;
+    margin: 25px 0 10px;
+
+}
+
+.Login p a{
+    text-decoration: none;
+    color: #131212;
+    font-weight: 400;
+}
+
+.Login p a:hover{
+    text-decoration: underline;
+}
